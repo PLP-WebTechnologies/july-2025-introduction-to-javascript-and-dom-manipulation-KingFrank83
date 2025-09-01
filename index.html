@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Mastery </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Basics, Functions, Loops & DOM</h1>
+
+  <!-- Part 1: Input and Conditionals -->
+  <section id="part1">
+    <h2>Part 1: Variables & Conditionals</h2>
+    <input type="number" id="userNumber" placeholder="Enter a number">
+    <button onclick="checkNumber()">Check Number</button>
+    <p id="result1"></p>
+  </section>
+
+  <!-- Part 2: Functions -->
+  <section id="part2">
+    <h2>Part 2: Functions</h2>
+    <button onclick="calculateTotal(5, 10)">Calculate Total</button>
+    <p id="result2"></p>
+
+    <button onclick="toggleMessage()">Toggle Message</button>
+    <p id="toggleText" style="display:none;">Hello, I was toggled! </p>
+  </section>
+
+  <!-- Part 3: Loops -->
+  <section id="part3">
+    <h2>Part 3: Loops</h2>
+    <button onclick="showCountdown()">Start Countdown</button>
+    <p id="countdown"></p>
+
+    <button onclick="listFruits()">List Fruits</button>
+    <ul id="fruitList"></ul>
+  </section>
+
+  <!-- Part 4: DOM Manipulation -->
+  <section id="part4">
+    <h2>Part 4: DOM Manipulation</h2>
+    <button onclick="changeHeading()">Change Heading</button>
+    <button onclick="addNewItem()">Add List Item</button>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
